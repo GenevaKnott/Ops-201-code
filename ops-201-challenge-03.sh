@@ -12,7 +12,7 @@
 print_function () {
     cat /var/log/auth.log
 }
-
+print_function
 var_change () {
     local var1=local 1
 }
