@@ -9,5 +9,11 @@
 + Your script must use at least one function and one variable.
 
 # Main
-
+print_function () {
+    cat /var/log/auth.log
+}
+print_functions
+var_change () {
+    local var1=local 1
+}
 # End
