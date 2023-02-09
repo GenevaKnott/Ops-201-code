@@ -17,4 +17,5 @@ my-func () {
     echo $var
 }
 
+my-func
 # End
