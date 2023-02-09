@@ -11,7 +11,7 @@
 # Main
 last
 
-var="im learning and its hard"
+var="im learning and its a challenge"
 
 my-func () {
     echo $var
