@@ -9,11 +9,12 @@
 #Your script must use at least one function and one variable.
 
 # Main
-print_function () {
-    cat /var/log/auth.log
+last
+
+var="im learning and its hard"
+
+my-func () {
+    echo $var
 }
-print_function
-var_change () {
-    local var1=local 1
-}
+
 # End
