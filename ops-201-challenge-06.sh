@@ -18,7 +18,7 @@ for path in "${paths[@]}"; do
     if [ ! -e "$path/iexist.md" ]; then
     touch "$path/iexist.md"
      else
-     echo "file_path already made"
+     echo "$path/iexist.md"
 fi
 done
 
