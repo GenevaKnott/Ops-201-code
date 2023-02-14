@@ -3,6 +3,8 @@
 #14Feb23
 # Main
 
+# I worked with Justin H. and Sierra the MNM team!
+
 # Display CPU information using lshw
 
 echo "CPU: "
