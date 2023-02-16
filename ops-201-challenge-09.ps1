@@ -4,6 +4,8 @@
 # Date: 16 Feb 2023
 # Description see below
 
+# I worked with Justin H and Sierra M-N-M!!
+
 $begin = get-date -date "02/16/2023 08:00:00"
 $End = Get-date -date "02/16/2023 14:00:00"
 
