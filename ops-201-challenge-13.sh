@@ -11,16 +11,9 @@
 
 #Install whois on your Ubuntu VM.
 
-#For this challenge you must use at least one variable and one function.
-#Add to your bash script a sixth option that calls a function to:
-#Take a user input string. Presumably the string is a domain name such as Google.com.
-#Run whois against a user input string.
-#Run dig against the user input string.
-#Run host against the user input string.
-#Run nslookup against the user input string.
-#Output the results to a single .txt file and open it with your favorite text editor.
 
-read -p "Enter website address" domain
+
+read -p "enter website" domain
 # Define domain_info function
 function domain_info() {
     echo "WHOIS information for $domain:"
@@ -36,4 +29,4 @@ function domain_info() {
     nslookup $domain
     echo ""
 }
-domain_info > "/home/geneva/info.txt"
+domain_info 
