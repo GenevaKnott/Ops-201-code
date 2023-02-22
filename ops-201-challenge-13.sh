@@ -5,6 +5,8 @@
 # Date of latest revision:02/22/2023
 # Purpose: #!/bin/bash
 
+# I worked with Justin H and Sierra M-N-M
+
 # [whois](https://www.howtogeek.com/680086/how-to-use-the-whois-command-on-linux/)
 
 #Install whois on your Ubuntu VM.
