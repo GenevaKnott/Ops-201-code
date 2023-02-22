@@ -29,4 +29,4 @@ function domain_info() {
     nslookup $domain
     echo ""
 }
-domain_info 
+domain_info > "/home/geneva/info.txt"
