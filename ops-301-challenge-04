@@ -1,0 +1,43 @@
+#!/bin/bash
+
+# Script: Ops 201 Class 02 Ops Challenge Solution
+# Author:Geneva Knott
+# Date of latest revision:03/16/2023
+# Purpose:Conditionals in Menu Systems
+
+# I worked with Justin and Sierra and Nickolaus
+
+# Main
+
+while true; do
+    clear
+    echo "Please select option"
+    echo "1. Hello World"
+    echo "2. Ping Self" 
+    echo "3. IP Info"
+    echo "4. Exit"
+
+    read -p "enter your choice: " choice
+
+    case $choice in
+    1)
+        echo "Hello world!"
+        read -p "Press enter to continue"
+        ;;
+    2)
+        ping -c 3 127.0.0.1
+        read -p "press enter to continue"
+        ;;
+    3) 
+        ifconfig
+        read -p "press enter to continue"
+        ;;
+    4)
+        exit 0
+        ;;
+    *)
+        echo "Invalid choice. Press enter to try again."
+        read
+        ;;
+    esac
+done
