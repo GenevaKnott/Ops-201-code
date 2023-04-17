@@ -1,0 +1,15 @@
+#Geneva Knott worked with Sierra, Justin H, and Nick A
+#Create a shell script that automates ONE of the following required SOC 2 configurations on a Windows 10 endpoint.
+
+
+# Set the time for automatic screen lock in minutes
+$screenLockTime = 15
+
+# Configure automatic screen lock
+#The $screenLockTime variable is set to the desired time in minutes for automatic screen lock. 
+#In this example, it is set to 15 minutes, but you can modify it to your desired value.
+#The Set-ItemProperty cmdlet is used to configure the registry values for automatic screen lock. The ScreenSaveTimeOut value specifies the time in seconds before the screen saver is activated, and it is set to the value of $screenLockTime converted to seconds. 
+#The ScreenSaverIsSecure value is set to 1 to ensure that the screen saver requires a password to unlock.
+$registryPath = "HKCU:\Control Panel\Desktop"
+Set-ItemProperty -Path $registryPath -Name "ScreenSaveTimeOut" -Value $screenLockTime
+Set-ItemProperty -Path $registryPath -Name "ScreenSaverIsSecure" -Value 1
