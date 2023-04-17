@@ -1,9 +1,10 @@
 #Geneva Knott worked with Sierra, Justin H, and Nick A
 #Create a shell script that automates ONE of the following required SOC 2 configurations on a Windows 10 endpoint.
+#ChatGPt to assist
 
 
 # Set the time for automatic screen lock in minutes
-$screenLockTime = 15
+$screenLockTime = 5 min
 
 # Configure automatic screen lock
 #The $screenLockTime variable is set to the desired time in minutes for automatic screen lock. 
