@@ -3,6 +3,7 @@
 # I worked with Sierra M, Nick A and Justin H
 
 # Port Scanner
+# I used this IP address to test 45.33.32.156 
 
 # Utilize the scapy tool
 from scapy.all import IP, sr1, TCP
